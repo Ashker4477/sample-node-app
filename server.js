@@ -11,4 +11,4 @@ app.get('/', (req, res) => {
     res.send('helloo server is running at', Port);
 });
 
-app.listen(Port, () => console.log('Server is running seccussfully'));
+app.listen(Port, () => console.log(`Server is running seccussfully on port: ${Port}`));
